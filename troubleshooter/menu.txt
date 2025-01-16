@@ -1,0 +1,27 @@
+script-to-base64-snippet /mnt/c/Users/oscar/OneDrive/Desktop/Work\ Coates/SME\ work/Troubleshooter/Code/main.sh
+
+Initial Options
+-Option1: Change IP
+-Option2: Change nsn
+-Option3: Run super command.
+-Option4: General Healthcheck
+-Option5:
+-Option6:
+-Option7:
+-Option8:
+-Option9:Troubleshooter
+
+
+
+
+-Troubleshooting options
+*Troubleshooting1: Content assigned but still on identifiers. ( stuck indefinitely downloading)
+*Troubleshooting2:Multiple primes
+*Troubleshooting3:iot no access 
+*Troubleshooting4:Blank screens
+*Troubleshooting5: DNS error
+*Troubleshooting6:
+*Troubleshooting7:
+*Troubleshooting8:
+*Troubleshooting9:
+	
