@@ -1,5 +1,4 @@
-script-to-base64-snippet /mnt/c/Users/oscar/OneDrive/Desktop/Work\ Coates/SME\ work/Troubleshooter/Code/main.sh
-
+script-to-base64-snippet /mnt/c/Users/oscar/Documents/CoatesPublic/troubleshooter/scripts/
 Initial Options
 -Option1: Change IP
 -Option2: Change nsn
