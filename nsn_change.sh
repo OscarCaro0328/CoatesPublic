@@ -60,8 +60,6 @@ new_location_code=$value
         # Inform HQ of self
         switchboard heartbeat -v
         
-        # Inform MP to run Umpa
-        rm /var/lib/umpa/status.json ; umpa -v
         
         # Sendreport to update IOT
         sendreport -v
