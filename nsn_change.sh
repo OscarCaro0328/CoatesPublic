@@ -10,7 +10,6 @@ read -p "Enter the new location code: " value
 CURRENT_HQ_IP=$(</var/lib/switchboard/data/network.hq)
 CURRENT_LOCATION_CODE=$(</var/lib/switchboard/data/location)
 CURRENT_HOSTNAME="$(hostname)"
-MP_STATE=$(</var/lib/switchboard/data/keepalived.state)
 new_location_code=$value
 
 
@@ -19,11 +18,6 @@ new_location_code=$value
         if [[ -z "$new_location_code" ]]; then
             echo "No new_location_code argument passed"
             echo "$USAGE"
-            exit 1
-        fi
-
-        if [[ "$MP_STATE" != "MASTER" && "$MP_STATE" != "SLAVE" ]]; then
-            echo "Please check the MP_STATE data file as there seems to be a problem with it"
             exit 1
         fi
 
